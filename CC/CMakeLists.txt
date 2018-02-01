@@ -8,7 +8,7 @@ option( COMPILE_CC_CORE_LIB_WITH_QT "Check to compile CC_CORE_LIB with Qt (to en
 option( COMPILE_CC_CORE_LIB_WITH_CGAL "Check to compile CC_CORE_LIB with CGAL lib. (to enable Delaunay 2.5D triangulation with a GPL compliant licence)" OFF )
 option( COMPILE_CC_CORE_LIB_SHARED "Check to compile CC_CORE_LIB as a shared library (DLL/so)" ON )
 
-# to compile CCLib only! (CMake implicitly imposes to declare a project before anything...)
+# to compile CCLib only! (CMake implicitly imposes to (zhuxubo) declare a project before anything...)
 project( CC_CORE_LIB VERSION 1.0 )
 
 # CGAL takes precedence over triangle
